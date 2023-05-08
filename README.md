@@ -26,6 +26,7 @@ Follow these steps to set up the project:
 ```
 
 Replace 1000 with your initial USDT balance. If you want to start with BUSD, set the USDT balance to 0 and update the BUSD balance.
+*Note* Be sure the permissions are Read and Write. To do so: Settings > Actions > General > Workflow permissions (scroll down) > "Read and write permissions". 
 
 4. Modify the GitHub Actions workflow: Uncomment the schedule section in the .github/workflows/main.yml file to enable the script to run every 5 minutes:
 
