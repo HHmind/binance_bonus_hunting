@@ -4,8 +4,8 @@ from binance import Client
 
 API_KEY = os.environ.get("API_KEY")
 SECRET_KEY = os.environ.get("SECRET_KEY")
-floor_price = float(os.environ.get("floor_price"))
-ceil_price = float(os.environ.get("ceil_price"))
+floor_price = float(os.environ.get("0.900"))
+ceil_price = float(os.environ.get("1"))
 
 # Initialize Binance client
 client = Client(API_KEY, SECRET_KEY)
